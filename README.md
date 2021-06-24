@@ -2,4 +2,5 @@
 
 ## BackCounting
 ## Replace Character
-## ReverseString
+## Reverse String
+## Print String
