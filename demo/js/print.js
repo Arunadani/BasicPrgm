@@ -5,7 +5,7 @@ console.log("this is console");
 console.log("sum" + " " + (4 +3));
 
 // add 2 input from browser user
-try {
+/*try {
     let num1 = parseInt(prompt("type first number"));
     let num2 = parseInt(prompt("type second number"));
     let num3 = parseInt(prompt("type third number"));
@@ -17,5 +17,23 @@ try {
 catch (e){
     console.log("Run in Browser", e);
 }
+*/
 
+let a = 5;
+let b = "5";
+if (a!==b){
+    console.log(a+b);
+}
+else{
+    console.log("failed")
+}
 
+let c = "5";
+let d = 0;
+console.log(typeof(c));
+    if(c & d){
+    console.log("true");
+}
+else{
+    console.log("failed")
+}
