@@ -6,3 +6,4 @@ cars[3] = "Royce Rolls";
 cars[4] = "Benz";
 cars[5] = "volvo";
 console.log(cars);
+console.log(cars.length)

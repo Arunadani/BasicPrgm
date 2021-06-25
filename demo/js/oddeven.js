@@ -1,7 +1,7 @@
 //check odd or even
 //get input
-const num = prompt('Enter a number: ');
-//const num = 65341;
+//const num = prompt('Enter a number: ');
+const num = "654242";
 // check if even
 if(num % 2 === 0) {
     console.log("The number is even.");
