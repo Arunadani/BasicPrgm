@@ -11,12 +11,9 @@ let b = parseInt(prompt('Enter the second variable: '));
 // addition
 a = a + b;
 // subtraction
+b = a - b;
+
 a = a - b;
-// multiply
-b = a * b;
-// XOR operator
-b = a ^ b;
-//c = a ^ b;
 // Combinations
 //a = a * b / c;
 //b = b ^ c * a;
