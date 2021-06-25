@@ -1,12 +1,12 @@
 
 // swap the variables
 
-//let a = parseInt(prompt('Enter the first Variable: '));
-//let b = parseInt(prompt('Enter the second variable: '));
+let a = parseInt(prompt('Enter the first Variable: '));
+let b = parseInt(prompt('Enter the second variable: '));
 //let c = parseInt(prompt('Enter the third variable: '));
 
-let a = 10;
-let b = 14;
+//let a = 10;
+//let b = 14;
 //let c = 5;
 // addition
 a = a + b;
