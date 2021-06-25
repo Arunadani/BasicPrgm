@@ -1,8 +1,7 @@
-let num = 11;
+let num = 29;
 let temp = 0;
 
 for (let i=2; i <=num/2; i++){
-    console.log("prime" + i);
     if (num %i == 0){
         temp=1;
 
