@@ -27,3 +27,11 @@ for (let i=0; i<=5; i++){
 }
 console.log(sum2);
 
+let sum3 = 0;
+for (let i=0; i<=5; i++)
+    if (i%5 !== 0){
+        console.log(i);
+        sum3 = sum3 + i;
+    }
+console.log(sum3);
+
