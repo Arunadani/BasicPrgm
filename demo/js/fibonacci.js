@@ -1,5 +1,5 @@
 // fibonacci series
-let a = 5;
+let a = 15;
 let b = 0, c = 1, d;
 // printing first 2 nos
 console.log("The fibonacci series is: ");
@@ -14,5 +14,6 @@ while (d <= a){
     c = d;
     d = b + c;
 }
+
 
 
