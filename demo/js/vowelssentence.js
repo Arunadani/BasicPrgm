@@ -1,5 +1,5 @@
-//let text = "Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty"
-let text = "mdm is here"
+let text = "Whvr dwlls in the shelter of the Most High will rest in the shadow of the Almighty"
+//let text = "mdm is here"
 let vowelsArr = [];
 let words;
     wordcount(text);
