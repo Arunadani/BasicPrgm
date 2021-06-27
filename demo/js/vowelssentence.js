@@ -19,7 +19,9 @@ function wordcount(counts) {
 }
 console.log("total words count: " + words.length);
 
-console.log(vowelsArr);
+console.log(vowelsArr.join(" "));
+
+
 
 console.log('Count: '+ vowelsArr.length);
 
