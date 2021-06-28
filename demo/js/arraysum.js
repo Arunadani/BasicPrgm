@@ -1,6 +1,6 @@
 
 //let num = [5,2,4,1,6,8,6,3];
-let num = [5,4,3,"w",1];
+let num = [5,4,3,5,1];
 let n = num.length;
 let temp;
 let sum1 = 0;
@@ -24,3 +24,17 @@ console.log("Element is not a number")
 
 }
 console.log(sum1);
+
+let arrayaddition = arradd();
+
+function arradd(add){
+    let num1 = [5,6,4];
+    let num2 = [6,8,9];
+    let sum = [];
+    for (let i= 0; i<3; i++){
+        for (let j = i; j<=i; j++){
+         sum[i] = num1[i] + num2[j];
+        }
+    }
+    console.log(sum);
+}
