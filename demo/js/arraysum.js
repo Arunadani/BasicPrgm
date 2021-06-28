@@ -36,5 +36,7 @@ function arradd(add){
          sum[i] = num1[i] + num2[j];
         }
     }
-    console.log(sum);
+    //console.log(sum);
+    return sum;
 }
+console.log(arrayaddition);
