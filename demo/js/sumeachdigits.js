@@ -1,16 +1,19 @@
-let num  = 172;
+let n  = 172;
+let temp = 0;
+let sum = 0;
 
-if (isNaN){
-    console.log("Please enter valid number.");
-    console.log(num);
-}
-else do {
-    let temp = num % 10;
-   n = num/10;
-    sum+= temp;
-    console.log(temp);
-}while (n<=0){
+let sumofdigits = sumdigits(n);
+console.log(sumofdigits);
 
+function sumdigits(n){
+    while (n !== 0)
+    {
+        temp = n % 10;
+        sum = sum + temp;
+        n = parseInt(n/10);
+    }
+    return sum;
 }
+
 
 
