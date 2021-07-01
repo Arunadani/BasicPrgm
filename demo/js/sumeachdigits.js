@@ -1,3 +1,4 @@
+
 let n  = 172;
 let temp = 0;
 let sum = 0;
@@ -14,6 +15,5 @@ function sumdigits(n){
     }
     return sum;
 }
-
 
 
