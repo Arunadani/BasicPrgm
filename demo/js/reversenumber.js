@@ -1,12 +1,13 @@
 let num = 63165432;
-let reversenum =reverseint();
-function reverseint(number) {
-    var result = 0,
-        counter = 0;
-    for (i = num; i >= 1; i = i / 10 - (i % 10) * 0.1) {
-        counter = i % 10;
-        result = result * 10 + counter;
-    }
-    return result;
-}
+let reversenum =reverseint(num);
 console.log(reversenum);
+function reverseint(reversenum) {
+    let result = 0, counter = 0;
+    while(reversenum){
+        result = reversenum % 10;
+        counter = (counter * 10) + result;
+        reversenum = reversenum / 10 | 0;
+    }
+    return counter;
+}
+
