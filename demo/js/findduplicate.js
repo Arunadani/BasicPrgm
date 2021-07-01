@@ -1,21 +1,21 @@
-let randomnum = [4,3,6,3,4,3]
-let duplicates = duplicate();
-function duplicate(random){
-    let counts = {}
-
+let randomnum = [4,3,6,3,4,3];
+let counts = {};
+let duplicates = duplicate(randomnum);
+console.log(duplicates);
+function duplicate(randomnum){
     for(let i =0; i < randomnum.length; i++){
         if (counts[randomnum[i]]){
-            counts[randomnum[i]] += 1
+            counts[randomnum[i]] += 1;
         } else {
-            counts[randomnum[i]] = 1
+            counts[randomnum[i]] = 1;
         }
     }
-    for (let prop in counts){
-        if (counts[prop] >= 2){
-            console.log(prop + " duplicated: " + counts[prop] + " times.")
+    for (let j in counts){
+        if (counts[j] >= 2){
+            console.log(j + " duplicated: " + counts[j] + " times.");
         }
     }
     return counts;
 }
 
-console.log(duplicates);
+
