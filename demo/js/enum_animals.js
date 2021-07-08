@@ -5,24 +5,24 @@ const animals = {
         cat:"cat",
         dog:"dog"
 };
-let sounds = animals.cat;
+let sounds = animals.tiger;
 
 console.log(sounds);
 
 switch (sounds) {
-        case animals.lion:
+        case "lion":
             console.log("roars");
             break;
-        case animals.tiger:
+        case "tiger":
             console.log("chuffs");
             break;
-        case animals.panda:
+        case "panda":
             console.log("squeaks, growls, barks and huffs");
             break;
-        case animals.cat:
+        case "cat":
             console.log("meows, chirrups, hisses, purrs, chatters, and growls");
             break;
-        case animals.dog:
+        case "dog":
             console.log("barks");
             break;
 
