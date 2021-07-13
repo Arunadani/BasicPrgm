@@ -1,6 +1,6 @@
 
 //let num = [5,2,4,1,6,8,6,3];
-let num = [5,4,3,5,1];
+let num = [5,4];
 let n = num.length;
 let temp;
 let sum1 = 0;
