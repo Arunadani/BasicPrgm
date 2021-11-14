@@ -7,7 +7,7 @@ findDuplicate(str);
 console.log(duplicate);
 
 function findDuplicate(newStr){
-    
+
     let count = new Array(charlen);
     count.fill(0);
     
@@ -26,3 +26,4 @@ function findDuplicate(newStr){
             //return str;
 
 }
+
